@@ -29,3 +29,6 @@ class WebsiteUser(HttpUser):
 if __name__ == "__main__":
     import os
     os.system("locust -f load_test_api.py")
+
+
+#  locust -f load_test_api.py  ( command for run project)
