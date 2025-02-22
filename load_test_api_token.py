@@ -3,7 +3,6 @@ from locust import HttpUser, TaskSet, task, between
 
 class CardListTaskSet(TaskSet):
 
-    // Replace token & url
     headers = {
         "Content-Type": "application/json",
         "Token": "Replace_Your_Token",
